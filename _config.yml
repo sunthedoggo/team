@@ -1,1 +1,31 @@
 title: "Glorified Studios Staff"
+lang: "en-GB"
+
+collections:
+  teams:
+    order:
+      - board.md
+      - development.md
+      - moderation.md
+  staff:
+    order:
+      - internet.md
+
+plugins:
+  - kramdown
+  - kramdown-parser-gfm
+  - liquid
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-avatar
+  - jekyll-remote-theme
+  - jemoji
+  - jekyll-mentions
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
