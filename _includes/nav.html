@@ -1,0 +1,17 @@
+<nav>
+	{% if site.data.nav.size > 0 %}
+	<div class="left">
+		{% for item in site.data.nav %}
+		{% include navlink.html name=item.name link=item.link external=item.external %}
+		{% endfor %}
+	</div>
+	{% endif %}
+
+	{% if site.data.rightnav.size > 0 %}
+	<div class="right">
+		{% for item in site.data.rightnav %}
+		{% include navlink.html name=item.name link=item.link external=item.external %}
+		{% endfor %}
+	</div>
+	{% endif %}
+</nav>
