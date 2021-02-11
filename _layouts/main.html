@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>{{ page.title }} - {{ site.title }}</title>
+		<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+		{% seo %}
+	</head>
+
+	<body>
+		{% include nav.html %}
+		<div class="content" id="content-{{ page.name | stripext }}">
+			{{ content }}
+		</div>
+	</body>
+
+	<script src="{{ "/assets/js/particles.min.js" | relative_url }}"></script>
+</html>
