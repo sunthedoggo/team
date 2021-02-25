@@ -18,6 +18,11 @@ defaults:
       type: "staff"
       path: ""
     values:
+      layout: "staff"
+  - scope:
+      type: "team"
+      path: ""
+    values:
       layout: "team"
 
 plugins:
