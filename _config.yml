@@ -3,15 +3,15 @@ lang: "en-GB"
 repository: GlorifiedStudios/Team
 
 collections:
+  staff:
+    order:
+      - internet.md
+    output: true
   teams:
     order:
       - board.md
       - development.md
       - moderation.md
-    output: true
-  staff:
-    order:
-      - internet.md
     output: true
 
 defaults:

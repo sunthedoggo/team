@@ -6,13 +6,12 @@
 		<title>{{ page.title }} - {{ site.title }}</title>
 		<link rel="stylesheet" href="{{ "/assets/css/style2.css" | relative_url }}">
 		<script src="https://kit.fontawesome.com/3a70820ca4.js" crossorigin="anonymous"></script>
+		<script src="{{ "assets/js/particles.min.js" | relative_url }}"></script>
+		<script src="{{ "assets/js/app.js" | relative_url }}"></script>
 		{% seo %}
 	</head>
 
 	<body>
-		{% include nav.html %}
-		<div class="content" id="content-{{ page.name | stripext }}">
-			{{ content }}
-		</div>
+		{{ content }}
 	</body>
 </html>
