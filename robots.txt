@@ -1,1 +1,1 @@
-Sitemap: https://github.com/team.glorifiedstudios.com/sitemap.xml
+Sitemap: https://github.com/pages/GlorifiedStudios/Team/sitemap.xml
