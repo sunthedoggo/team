@@ -1,6 +1,6 @@
 ---
 name: Sad Man
 teams: [board, development]
-job: Chief Sad Officer
+role: Chief Sad Officer
 ---
 Sad Man is sad.
