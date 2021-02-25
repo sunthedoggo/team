@@ -11,6 +11,7 @@ collections:
   staff:
     order:
       - internet.md
+    output: true
 
 plugins:
   - kramdown
