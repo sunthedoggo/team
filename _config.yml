@@ -13,6 +13,13 @@ collections:
       - internet.md
     output: true
 
+defaults:
+  - scope:
+      type: "staff"
+      path: ""
+    values:
+      layout: "team"
+
 plugins:
   - kramdown
   - kramdown-parser-gfm
