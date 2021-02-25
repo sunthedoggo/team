@@ -13,7 +13,7 @@ title: Our Team
 			{% assign role_members = site.staff | where_exp: "member", "member.roles contains team.slug" %}
 			{% for member in role_members %}
 			<article class="card">
-				{{ member.content | markdownify }}
+				{{ member.output }}
 			</article>
 			{% endfor %}
 		</section>
