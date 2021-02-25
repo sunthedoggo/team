@@ -10,7 +10,9 @@
 		<div class="glorified-team-details">
 			<div class="member-title">
 				<div class="member-name">{{ page.name }}</div>
-				<div class="member-role">{{ page.job }}</div>
+				{% if page.job %}
+					<div class="member-role">{{ page.job }}</div>
+				{% endif %}
 			</div>
 			<div class="member-desc">
 				{{ page.content | markdownify }}
