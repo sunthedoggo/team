@@ -8,6 +8,7 @@ collections:
       - board.md
       - development.md
       - moderation.md
+    output: true
   staff:
     order:
       - internet.md
