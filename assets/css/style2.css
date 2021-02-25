@@ -117,8 +117,7 @@ i {
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    margin: 10px;
-    margin-bottom: 40px;
+    margin: 40px 10px;
 }
 
 .glorified-team-title {
