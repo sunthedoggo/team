@@ -2,7 +2,7 @@
 	<div class="glorified-team-title">{{ page.name }}</div>
 	<div class="glorified-team-desc">{{ page.content | markdownify }}</div>
 	<div class="glorified-team-list">
-		{% assign role_members = site.staff | where_exp: "member", "member.roles contains page.slug" %}
+		{% assign role_members = site.staff | where_exp: "member", "member.teams contains page.slug" %}
 		{% for member in role_members %}
 			{{ member.output }}
 		{% endfor %}
