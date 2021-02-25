@@ -1,7 +1,10 @@
 <div class="glorified-team-container">
-	<div class="glorified-team-title">Developers</div>
-	<div class="glorified-team-desc">People who are smart enough to do things that do stuff that needs doing</div>
+	<div class="glorified-team-title">{{ team.name }}</div>
+	<div class="glorified-team-desc">{{ team.content | markdownify }}</div>
 	<div class="glorified-team-list">
-		{{team boxes here }}
+		{% assign role_members = site.staff | where_exp: "member", "member.roles contains team.slug" %}
+		{% for member in role_members %}
+			{{ member.output }}
+		{% endfor %}
 	</div>
 </div>
