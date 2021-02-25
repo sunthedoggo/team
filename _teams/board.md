@@ -1,5 +1,5 @@
 ---
 name: The Board
-date: 1-1-2000
+date: 2-1-2000
 ---
-The role of the board is to give feedback and direction at a high level within Glorified Studios.
+Board makes up the development & community management team for communication related to the community on a high-level end.

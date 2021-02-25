@@ -9,8 +9,8 @@ collections:
     output: true
   teams:
     order:
-      - board.md
       - development.md
+      - board.md
       - moderation.md
     output: true
 
