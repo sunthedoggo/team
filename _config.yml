@@ -21,7 +21,7 @@ defaults:
     values:
       layout: "staff"
   - scope:
-      type: "team"
+      type: "teams"
       path: ""
     values:
       layout: "team"
