@@ -23,6 +23,8 @@ jobs:
           enable_cache: true
           format_output: true
           prettier_opts: '{"useTabs": true}'
+        env:
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
