@@ -118,6 +118,8 @@ i {
     justify-content: center;
     position: relative;
     margin: 40px 10px;
+    min-width: 600px;
+    width: 60%;
 }
 
 .glorified-team-title {
