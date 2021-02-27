@@ -144,6 +144,7 @@ DEPENDENCIES
   jekyll-timeago (~> 0.13.1)
   jekyll-titles-from-headings
   jemoji
+  tzinfo-data
 
 BUNDLED WITH
    2.1.4
