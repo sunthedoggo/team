@@ -197,6 +197,16 @@ i {
     font-size: 23px;
 }
 
+.member-realname {
+    font-weight: 400;
+    font-size: 19px;
+    color: rgb(0 0 0 / 75%);
+}
+
+.member-name + .member-realname {
+    padding-left: 6px;
+}
+
 .member-role {
     margin: auto;
     background: rgb(0 0 0 / 3%);
