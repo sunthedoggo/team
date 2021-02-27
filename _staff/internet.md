@@ -2,7 +2,7 @@
 name: Doctor Internet
 teams: [board, development]
 role: "Community Management & Systems Administrator"
-avatar: https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/3b/3b0eae51e17a60e34b920b25290eb32c197efc9c_medium.jpg
+avatar: https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/3b/3b0eae51e17a60e34b920b25290eb32c197efc9c_full.jpg
 links:
     steam: https://steamcommunity.com/id/DocInternet
     github: https://github.com/JoshPiper
