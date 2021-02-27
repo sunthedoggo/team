@@ -2,7 +2,7 @@
 	<div class="glorified-box-top">
 		<div class="glorified-team-avatar">
 			{% if page.avatar %}
-				<img src="{{ page.avatar }}" alt="{{ page.name }}'s Avatar">
+				<img src="{{ page.avatar | relative_url }}" alt="{{ page.name }}'s Avatar">
 			{% else %}
 				<img src="{{ "assets/img/unknown.png" | relative_url }}" alt="{{ page.name }}'s Avatar, which is currently unknown.">
 			{% endif %}
