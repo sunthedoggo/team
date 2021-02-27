@@ -1,7 +1,7 @@
 ---
 name: hermitec
 teams: [board, development]
-role: "Developer"
+role: "Founding Developer"
 avatar:
 links:
 ---
