@@ -6,6 +6,7 @@ baseurl: "/"
 collections:
   staff:
     order:
+      - glorifiedpig.md
       - internet.md
     output: true
   teams:
