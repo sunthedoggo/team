@@ -1,6 +1,6 @@
 ---
 name: Doctor Internet
-teams: [board, development, moderation]
+teams: [board, development]
 role: "Community Manager & Systems Administrator"
 avatar: https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/3b/3b0eae51e17a60e34b920b25290eb32c197efc9c_medium.jpg
 links:

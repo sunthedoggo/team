@@ -8,6 +8,11 @@ collections:
     order:
       - glorifiedpig.md
       - internet.md
+      - hermitec.md
+      - melvin.md
+      - easybutton.md
+      - mystex.md
+      - beth.md
     output: true
   teams:
     order:
