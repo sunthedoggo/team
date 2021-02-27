@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 body {
     background: linear-gradient(90deg, #721B8C 0%, #861FA6 100%);
 }
@@ -74,4 +85,196 @@ i {
 
 .center {
     text-align: center;
+}
+
+
+/** Team Page Start **/
+
+#team-page {
+    margin: auto;
+    display: flex;
+    width: 100%;
+}
+
+.glorified-teampage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    z-index: 10;
+    position: relative;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.glorified-team-container {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin: 40px 10px;
+}
+
+.glorified-team-title {
+    color: #5f5f5f;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    background: white;
+    width: 30%;
+    margin: auto;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0 0 0 / 15%);
+}
+
+.glorified-team-desc {
+    padding-top: 40px;
+    width: 80%;
+    margin: auto;
+    color: #5f5f5f;
+    text-align: center;
+}
+
+.glorified-team-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.glorified-team-box {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0 0 0 / 15%);
+    margin: 10px;
+}
+
+.glorified-box-top {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.glorified-team-avatar {
+    height: 100px;
+    width: 100px;
+}
+
+.glorified-team-avatar img {
+    height: 100px;
+    width: 100px;
+    border-radius: 0.5rem;
+}
+
+.glorified-team-details {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-title {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.member-name {
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.member-role {
+    margin: auto;
+    background: rgb(0 0 0 / 3%);
+    padding: 3px 5px;
+    color: #5f5f5f;
+    border-radius: 0.5rem;
+    margin-left: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(0 0 0 / 15%);
+}
+
+.member-desc {
+    margin: auto;
+    color: #5f5f5f;
+}
+
+.member-social {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    border-top: 1px solid #00000012;
+    padding: 10px;
+    background: rgb(0 0 0 / 3%);
+}
+
+.member-social a {
+    color: #5f5f5f;
+    border: 1px solid rgb(0 0 0 / 15%);
+    border-radius: 100%;
+    font-size: 15px;
+    margin: auto;
+    height: 38px;
+    width: 38px;
+    display: flex;
+    transition: all linear 0.5s;
+}
+
+.member-social a:hover i {
+    color: white;
+    opacity: 1;
+}
+
+.member-social a:hover {
+    color: white;
+}
+
+.member-social a i {
+    color: #5f5f5f;
+    font-size: 20px;
+    margin: auto;
+    opacity: 0.8;
+}
+
+.steam-link:hover {
+    background: #00adee;
+    box-shadow: 0 0 5px #00adee;
+}
+
+.git-link:hover {
+    background: #0366d6;
+    box-shadow: 0 0 5px #0366d6;
+}
+
+.youtube-link:hover {
+    background: #ff0000;
+    box-shadow: 0 0 5px #ff0000;
+}
+
+.twitch-link:hover {
+    background: #9146ff;
+    box-shadow: 0 0 5px #9146ff;
+}
+
+.paypal-link:hover {
+    background: #003087;
+    box-shadow: 0 0 5px #003087;
+}
+
+.discord-link:hover {
+    background: #7289da;
+    box-shadow: 0 0 5px #7289da;
 }
