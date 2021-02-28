@@ -6,5 +6,6 @@ avatar: https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avat
 links: 
   steam: https://steamcommunity.com/id/TobyTheOrgininalCharacter
   twitter: https://twitter.com/kinghoaxsun
+  discord: https://discord.com/users/249331429861883904
 ---
-An artist who makes game assets, probably. Procrastinates a lot.
+An artist who makes game assets, probably. Procrastinates a lot. 
