@@ -1,6 +1,6 @@
 ---
 name: Beth
-teams: [board, moderation]
+teams: [board]
 role: "Community Management"
 avatar:
 links:
