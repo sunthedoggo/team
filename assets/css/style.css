@@ -290,3 +290,8 @@ i {
     background: #7289da;
     box-shadow: 0 0 5px #7289da;
 }
+
+.twitter-link:hover {
+    background: #1DA1F2;
+    box-shadow: 0 0 5px #1DA1F2;
+}
